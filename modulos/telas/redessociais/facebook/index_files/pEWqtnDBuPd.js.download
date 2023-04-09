@@ -1,0 +1,6 @@
+;/*FB_PKG_DELIM*/
+
+__d("TransportSelectingClientSingletonConditional",["cr:5800"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:5800")}),98);
+__d("requireDeferredForDisplay",["requireDeferred"],(function(a,b,c,d,e,f,g){"use strict";function a(a){return c("requireDeferred").call(null,a)}g["default"]=a}),98);
+__d("FalcoAppUniverse",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum")({FACEBOOK:1,INSTAGRAM:2});c=a;f["default"]=c}),66);
+__d("uriIsRelativePath",[],(function(a,b,c,d,e,f){"use strict";function a(a){return!a.getProtocol()&&!a.getDomain()&&!a.getPort()&&a.toString()!==""}f["default"]=a}),66);
